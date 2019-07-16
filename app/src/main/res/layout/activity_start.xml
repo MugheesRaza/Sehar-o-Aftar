@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".StartActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/btn_outline" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Create Account"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:background="@drawable/btn_outline" />
+
+</LinearLayout>
